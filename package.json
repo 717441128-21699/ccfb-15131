@@ -1,0 +1,23 @@
+{
+  "name": "led-screen-restoration",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WebGL2 post-processing tool for LED perimeter-board flicker and rolling-band removal",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.65.1",
+    "typescript": "~5.6.3",
+    "vite": "^5.4.10",
+    "vitest": "^2.1.4"
+  },
+  "dependencies": {
+    "mp4-muxer": "^5.2.0"
+  }
+}

@@ -1,3 +1,12 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+e2e-preview.png
+e2e-error.png
+.vite/
+coverage/
+
 .env
 .env.*
 !.env.example
@@ -12,7 +21,6 @@ secrets.*
 credentials*.json
 .npmrc
 .pypirc
-node_modules/
 __pycache__/
 .venv/
 venv/
